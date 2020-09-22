@@ -1053,7 +1053,7 @@ function DP_sub_filter() {
 
         // turn back card
         // $(`.${EL_tag} > .back:visible .btn`).click();
-        // $(`.${DP_sub_tag} > .card-inner.trans-3d`).removeClass("trans-3d");
+        $(`.${DP_sub_tag} > .card-inner.trans-3d`).removeClass("trans-3d");
 
         //check scroll panel
         if(DP_sub_tag)
@@ -1077,28 +1077,22 @@ function DP_sub_filter() {
 }
 
 // check scroll panel and para descriptions
-function scrollCheck(DP_sub_tag, x) {
-    DP_sub_tag = DP_sub_tag || "";
+function scrollCheck(EL_tag, x) {
+    EL_tag = EL_tag || "";
     x = x || 1;
 
     if(x < 0) {
 
-        $("#card-display ." + DP_sub_tag).addClass("to-fade");
+        $("#card-display ." + EL_tag).addClass("to-fade");
         $(".card-deck").each(function(index, elem){
             // elem: a single card deck
-            let DA_tag = $($(elem).parent()[0]).attr("id");
+            var NS_tag = $($(elem).parent()[0]).attr("id");
             
             if($(elem).children(':visible:not(.to-fade)').length == 0) {
-                $("#" + DA_tag).fadeOut("normal", () => {
-                    DP_fitting(); 
-                    // $(`.${DP_sub_tag} > .card-inner.trans-3d`).removeClass("trans-3d");
-                    $(this).find(".card-inner.trans-3d").removeClass("trans-3d");
-                });
-                $("." + DA_tag).addClass("disabled");
+                $("#" + NS_tag).fadeOut("normal", () => DA_fitting());
+                $("." + NS_tag).addClass("disabled");
             } else {
-                $("#card-display ." + DP_sub_tag).fadeOut(400, function() {
-                    $(this).find(".card-inner.trans-3d").removeClass("trans-3d");
-                });
+                $("#card-display ." + EL_tag).fadeOut(400);
             }
             // $(elem).children(".to-fade").removeClass("to-fade");
         });
@@ -1107,16 +1101,16 @@ function scrollCheck(DP_sub_tag, x) {
 
     } else {
 
-        $("#card-display ." + DP_sub_tag).each(function(index, elem){
+        $("#card-display ." + EL_tag).each(function(index, elem){
             // elem: a single card
-            let targetSet = $(elem).parentsUntil("#card-display");
-            let NS_tag = $(targetSet[targetSet.length-1]).attr("id");
+            var targetSet = $(elem).parentsUntil("#card-display");
+            var NS_tag = $(targetSet[targetSet.length-1]).attr("id");
             $(".disabled." + NS_tag).removeClass("disabled");
 
             $(`#${NS_tag}:hidden:not(.to-show)`).addClass("to-show");
             $(elem).fadeIn("slow");
         });
-        DP_fitting();
+        DA_fitting();
         $(".to-show").fadeIn("normal", function(){
             $("#card-display > .to-show").removeClass("to-show");
         });
@@ -1125,7 +1119,7 @@ function scrollCheck(DP_sub_tag, x) {
     // NS_active_fitting();
 }
 
-function DP_fitting() {
+function DA_fitting() {
     if($("#card-display > div:visible").length == 0) {
         $(".btn-primary-group > .btn.active").removeClass("active");
         $(".btn-primary-group-sm > .btn.active").removeClass("active");

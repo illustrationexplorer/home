@@ -76,8 +76,8 @@ function setupInteraction() {
     });
 
     // activate NS navigator
-    $(".btn-primary-group > .btn").click(DA_scroller);
-    $(".btn-primary-group-sm > .btn").click(DA_scroller);
+    $(".btn-primary-group > .btn").click(NS_scroller);
+    $(".btn-primary-group-sm > .btn").click(NS_scroller);
 
     // activate scroll spy
     $(window).scroll(displaySpy);
@@ -1053,7 +1053,7 @@ function DP_sub_filter() {
 
         // turn back card
         // $(`.${EL_tag} > .back:visible .btn`).click();
-        // $(`.${DP_sub_tag} > .card-inner.trans-3d`).removeClass("trans-3d");
+        $(`.${DP_sub_tag} > .card-inner.trans-3d`).removeClass("trans-3d");
 
         //check scroll panel
         if(DP_sub_tag)
@@ -1077,28 +1077,22 @@ function DP_sub_filter() {
 }
 
 // check scroll panel and para descriptions
-function scrollCheck(DP_sub_tag, x) {
-    DP_sub_tag = DP_sub_tag || "";
+function scrollCheck(EL_tag, x) {
+    EL_tag = EL_tag || "";
     x = x || 1;
 
     if(x < 0) {
 
-        $("#card-display ." + DP_sub_tag).addClass("to-fade");
+        $("#card-display ." + EL_tag).addClass("to-fade");
         $(".card-deck").each(function(index, elem){
             // elem: a single card deck
-            let DA_tag = $($(elem).parent()[0]).attr("id");
+            var NS_tag = $($(elem).parent()[0]).attr("id");
             
             if($(elem).children(':visible:not(.to-fade)').length == 0) {
-                $("#" + DA_tag).fadeOut("normal", () => {
-                    DP_fitting(); 
-                    // $(`.${DP_sub_tag} > .card-inner.trans-3d`).removeClass("trans-3d");
-                    $(this).find(".card-inner.trans-3d").removeClass("trans-3d");
-                });
-                $("." + DA_tag).addClass("disabled");
+                $("#" + NS_tag).fadeOut("normal", () => EL_fitting());
+                $("." + NS_tag).addClass("disabled");
             } else {
-                $("#card-display ." + DP_sub_tag).fadeOut(400, function() {
-                    $(this).find(".card-inner.trans-3d").removeClass("trans-3d");
-                });
+                $("#card-display ." + EL_tag).fadeOut(400);
             }
             // $(elem).children(".to-fade").removeClass("to-fade");
         });
@@ -1107,16 +1101,16 @@ function scrollCheck(DP_sub_tag, x) {
 
     } else {
 
-        $("#card-display ." + DP_sub_tag).each(function(index, elem){
+        $("#card-display ." + EL_tag).each(function(index, elem){
             // elem: a single card
-            let targetSet = $(elem).parentsUntil("#card-display");
-            let NS_tag = $(targetSet[targetSet.length-1]).attr("id");
+            var targetSet = $(elem).parentsUntil("#card-display");
+            var NS_tag = $(targetSet[targetSet.length-1]).attr("id");
             $(".disabled." + NS_tag).removeClass("disabled");
 
             $(`#${NS_tag}:hidden:not(.to-show)`).addClass("to-show");
             $(elem).fadeIn("slow");
         });
-        DP_fitting();
+        EL_fitting();
         $(".to-show").fadeIn("normal", function(){
             $("#card-display > .to-show").removeClass("to-show");
         });
@@ -1125,7 +1119,7 @@ function scrollCheck(DP_sub_tag, x) {
     // NS_active_fitting();
 }
 
-function DP_fitting() {
+function EL_fitting() {
     if($("#card-display > div:visible").length == 0) {
         $(".btn-primary-group > .btn.active").removeClass("active");
         $(".btn-primary-group-sm > .btn.active").removeClass("active");
@@ -1136,7 +1130,7 @@ function DP_fitting() {
 }
 
 // avoid NS .disabled.active
-function DA_active_fitting() {
+function NS_active_fitting() {
     var targetSet = $(".btn-primary-group").find(".disabled.active") || $(".btn-primary-group-sm").find(".disabled.active");
     // length only equals 1 / 0
     if(targetSet.length > 0) {
@@ -1182,7 +1176,7 @@ function cardTrans() {
 }
 
 // NS buttons control #card-display
-function DA_scroller() {
+function NS_scroller() {
     // var screenH = $(window).height() - $("#card-display").offset().top;
     var targetId = $(this).attr("href");
     var target = $(targetId).position().top + $("#card-display").height() - $("#card-display").outerHeight();
@@ -1227,7 +1221,7 @@ function searchFunc() {
         // $.ajaxSettings.async = false;
         $.getJSON(card_doc, function(json) {
 
-            const doc_length = json.length;
+            const doc_length = card_doc.length;
             let flag = false;
 
             //get to-be-hidden number array
@@ -1238,28 +1232,27 @@ function searchFunc() {
                 delete item.DA_class_id;
                 
                 let itemDoc = (Object.values(item)).join(" ");
-                if(itemDoc.search(rex) > -1) {
-                    show_list.push(`card_${i+1}`);
+                console.log("itemDoc.search(rex):",itemDoc.search(rex));
+                if(itemDoc.search(rex) > 0) {
+                    show_list.push(`card_${i}`);
                 }
 
-                if(i === doc_length-1) {
+                if(i === (doc_length - 1)) {
                     flag = true;
                     console.log("Search finished");
                 }
             });
 
+            console.log("showlist:", show_list);
+
             if(flag && (show_list.length > 0)) {
                 console.log(`${show_list.length} results were found: `, show_list);
-                show_list.forEach(card_name => $(`[name="${card_name}"]`).addClass("as-result"));
-                $(".btn-sub-list:hidden").slideDown(function() {
-                    $(".btn-secondary-group > .btn").addClass("active"); //activate DP
-                    $(".btn-sub-list > li").addClass("active"); //activate DP
-                });
+                show_list.forEach(card_name => $(`[name=${card_name}]`).addClass("as-result"));
+                $(".btn-secondary-group > .btn").addClass("active"); //activate EL
                 $("#card-display > div").fadeOut("normal", function() {
 
-                    if($(this).is($("#card-display > div").last())) {
+                    if($(this).is($("#card-display > div").last()))
                         searchResultDisplay();
-                    }
 
                     $(".search-result").text(`${show_list.length} result${show_list.length > 1 ? "s" : ""}`);
                 });

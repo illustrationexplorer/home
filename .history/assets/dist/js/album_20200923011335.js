@@ -1053,7 +1053,7 @@ function DP_sub_filter() {
 
         // turn back card
         // $(`.${EL_tag} > .back:visible .btn`).click();
-        // $(`.${DP_sub_tag} > .card-inner.trans-3d`).removeClass("trans-3d");
+        $(`.${DP_sub_tag} > .card-inner.trans-3d`).removeClass("trans-3d");
 
         //check scroll panel
         if(DP_sub_tag)
@@ -1077,28 +1077,22 @@ function DP_sub_filter() {
 }
 
 // check scroll panel and para descriptions
-function scrollCheck(DP_sub_tag, x) {
-    DP_sub_tag = DP_sub_tag || "";
+function scrollCheck(DP_tag, x) {
+    DP_tag = DP_tag || "";
     x = x || 1;
 
     if(x < 0) {
 
-        $("#card-display ." + DP_sub_tag).addClass("to-fade");
+        $("#card-display ." + DP_tag).addClass("to-fade");
         $(".card-deck").each(function(index, elem){
             // elem: a single card deck
             let DA_tag = $($(elem).parent()[0]).attr("id");
             
             if($(elem).children(':visible:not(.to-fade)').length == 0) {
-                $("#" + DA_tag).fadeOut("normal", () => {
-                    DP_fitting(); 
-                    // $(`.${DP_sub_tag} > .card-inner.trans-3d`).removeClass("trans-3d");
-                    $(this).find(".card-inner.trans-3d").removeClass("trans-3d");
-                });
+                $("#" + DA_tag).fadeOut("normal", () => DP_fitting());
                 $("." + DA_tag).addClass("disabled");
             } else {
-                $("#card-display ." + DP_sub_tag).fadeOut(400, function() {
-                    $(this).find(".card-inner.trans-3d").removeClass("trans-3d");
-                });
+                $("#card-display ." + DP_tag).fadeOut(400);
             }
             // $(elem).children(".to-fade").removeClass("to-fade");
         });
@@ -1107,7 +1101,7 @@ function scrollCheck(DP_sub_tag, x) {
 
     } else {
 
-        $("#card-display ." + DP_sub_tag).each(function(index, elem){
+        $("#card-display ." + DP_tag).each(function(index, elem){
             // elem: a single card
             let targetSet = $(elem).parentsUntil("#card-display");
             let NS_tag = $(targetSet[targetSet.length-1]).attr("id");
