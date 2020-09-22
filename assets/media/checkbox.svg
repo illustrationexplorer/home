@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="30" viewBox="0 0 14 30">
+  <g id="组_1" data-name="组 1" transform="translate(-262 -684)">
+    <g id="矩形" transform="translate(262 684)" fill="none" stroke-miterlimit="10">
+      <path d="M0,0H14V14H0Z" stroke="none"/>
+      <path d="M 1 1 L 1 13 L 13 13 L 13 1 L 1 1 M 0 0 L 14 0 L 14 14 L 0 14 L 0 0 Z" stroke="none" fill="#999"/>
+    </g>
+    <path id="形状" d="M7.755,0,3.071,4.684,0,1.613" transform="translate(265.123 688.658)" fill="none" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    <g id="矩形-2" data-name="矩形" transform="translate(262 700)" fill="none" stroke-miterlimit="10">
+      <path d="M0,0H14V14H0Z" stroke="none"/>
+      <path d="M 1 1 L 1 13 L 13 13 L 13 1 L 1 1 M 0 0 L 14 0 L 14 14 L 0 14 L 0 0 Z" stroke="none" fill="#999"/>
+    </g>
+  </g>
+</svg>
