@@ -3,10 +3,14 @@
 #### 介绍
 XXXX实验室设计研究专用
 
+#### 打开方式
+[jkalan6991.gitee.io/animated-illustration-explorer](https://jkalan6991.gitee.io/animated-illustration-explorer)
+
 #### 软件架构
 HTML+CSS+JavaScript
-1. JQuery
-2.Bootstrap 4.50
+
+1.  JQuery
+2.  Bootstrap 4.50
 
 #### 使用说明
 
@@ -14,6 +18,6 @@ HTML+CSS+JavaScript
 
 #### 参与贡献
 
-1.  JKL(programmer)
-2.  LZR(designer)
-3.  PL(designer)
+1.  JKL (programmer)
+2.  LZR (designer)
+3.  PL (designer)
