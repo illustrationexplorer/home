@@ -3,7 +3,8 @@
 #### 介绍
 XXXX实验室设计研究专用
 
-#### [打开方式](https://jkalan6991.gitee.io/animated-illustration-explorer)
+#### 打开方式
+[jkalan6991.gitee.io/animated-illustration-explorer](https://jkalan6991.gitee.io/animated-illustration-explorer)
 
 #### 软件架构
 HTML+CSS+JavaScript
