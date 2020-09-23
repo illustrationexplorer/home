@@ -583,12 +583,12 @@ AIE_Card.prototype._eventBinding = function() {
     });
 
     // bind with gif hover listener
-    const ffGif = new Freezeframe($(frontImg), {
-        trigger: 'hover',
-        overlay: false,
-        responsive: true,
-        warnings: false
-    });
+    // const ffGif = new Freezeframe($(frontImg), {
+    //     trigger: 'hover',
+    //     overlay: false,
+    //     responsive: true,
+    //     warnings: false
+    // });
 
 }
 

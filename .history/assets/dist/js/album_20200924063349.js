@@ -1,6 +1,6 @@
 // Data back Explorer
 
-// import Freezeframe from 'freezeframe';
+const Freezeframe = require('freezeframe');
 
 // prepare docs
 var DA_doc = "./assets/dist/js/DA_collection.json";
@@ -188,8 +188,8 @@ function setupInteraction() {
 
     // });
 
-    // const frontImg = new Freezeframe('.card-deck .card-img');
-    // $(".card-deck .card-img").onload(function(){
+    // const logo = new Freezeframe('.front > .card-img');
+    // $(".front > .card-img").onload(function(){
     //     var parentsSet = $(this).parentsUntil(".card-deck");
     //     var name = $(parentsSet[parentsSet.length - 1]).attr("name");
     //     const logo = new Freezeframe("[name=\'" + name + "\'] .front > .card-img");
@@ -538,7 +538,6 @@ AIE_Card.prototype._eventBinding = function() {
     let thisCard = this; // data object
     let Card = this._Card; // DOM object
     let modalWindowCarousel = $("#carouselModal").get(0); // carousel in modal frame
-    let frontImg = $(this._FrontGif).children().get(0);
 
     // bind with carousel
     $(this._BackCarousel).on("slide.bs.carousel", function(event) {
@@ -580,16 +579,7 @@ AIE_Card.prototype._eventBinding = function() {
 
             carouselItem.appendTo(carouselInner);
         });
-    });
-
-    // bind with gif hover listener
-    const ffGif = new Freezeframe($(frontImg), {
-        trigger: 'hover',
-        overlay: false,
-        responsive: true,
-        warnings: false
-    });
-
+    })
 }
 
 // Public method

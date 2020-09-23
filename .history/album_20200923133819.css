@@ -29,7 +29,6 @@
   }
 
   .display-title span {
-    /* left: -0.625rem; */
     left: 1.875rem;
   }
 
@@ -84,26 +83,14 @@
   }
 
   #card-display {
-    padding: 0;
-  }
-
-  #card-display .sticky-top {
     padding-top: 1.375rem;
     padding-left: 2.75rem;
     padding-right: 2rem;
   }
 
-  #card-display .card-deck {
-    margin-right: 0px;
-    margin-left: 0px;
-    padding-left: 1.75rem;
-    padding-right: 1rem;
-  }
-
   #filter-panel {
     min-width: 15rem;
     overflow-x: hidden;
-
     padding-left: 0.125rem;
     padding-right: 1.375rem;
   }
@@ -167,49 +154,12 @@
   font-family: PingFangSC, Arial, Helvetica, sans-serif;
 }
 
-.container-left {
+#card-display {
   background-image: url(assets/media/bg.png);
   background-position: center;
   background-attachment:fixed;
   background-size:60vh;
 }
-
-.deck-reminder {
-  padding-top: 1.375rem;
-  padding-left: 2.75rem;
-  padding-right: 2rem;
-
-  position: sticky;
-  width: 100%;
-  z-index: 500;
-  top: 116.5px;
-}
-
-.deck-reminder.active-sticky {
-
-  /* display: flex; */
-
-  backdrop-filter: saturate(180%) blur(20px);
-  background-color: transparent;
-  border-bottom: 1px solid #00000016;
-  box-shadow: 0 1px 2px #DCDFEF32;
-}
-
-/* .deck-reminder.actively {
-  opacity: 1;
-} */
-
-/* .deck-reminder.actively.disapear {
-  opacity: 0;
-} */
-
-/* .deck-reminder.active-sticky > .display-title {
-  margin-right: auto;
-} */
-
-/* .deck-reminder.active-sticky > .display-desc {
-  display: none;
-} */
 
 footer {
   padding-top: 3rem;
@@ -953,7 +903,7 @@ ul.btn-sub-list + button {
 }
 
 .card-body {
-  padding: 0.75rem 1rem 0.5rem;
+  padding: 1.25rem 1rem 0.5rem;
 
   display: -ms-flexbox !important;
   display: flex !important;
@@ -963,7 +913,7 @@ ul.btn-sub-list + button {
 }
 
 .card-body > .card-subtitle {
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.75rem;
   margin-top: 0;
   text-transform: capitalize;
   line-height: 0.875rem;
@@ -1199,7 +1149,7 @@ button.close > span {
 }
 
 .card-inner {
-  height: 30.875rem;
+  height: 30.25rem;
   position: relative;
 }
 
@@ -1242,21 +1192,4 @@ button.close > span {
   height: 25%;
   bottom: 0;
   background-image: linear-gradient(to bottom, #00000000, #00000060);
-}
-
-.ff-container {
-  height: 100%;
-}
-
-.ff-container.ff-responsive {
-  height: 100%;
-}
-
-.card-img .ff-image {
-  height: 100%;
-}
-
-.ff-container.ff-inactive .ff-canvas.ff-canvas-ready {
-  height: 100%;
-  object-fit: cover;
 }

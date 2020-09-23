@@ -586,7 +586,7 @@ AIE_Card.prototype._eventBinding = function() {
     const ffGif = new Freezeframe($(frontImg), {
         trigger: 'hover',
         overlay: false,
-        responsive: true,
+        responsive: false,
         warnings: false
     });
 

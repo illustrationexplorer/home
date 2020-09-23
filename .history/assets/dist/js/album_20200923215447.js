@@ -79,9 +79,6 @@ function setupInteraction() {
     $(".btn-primary-group > .btn").click(DA_scroller);
     $(".btn-primary-group-sm > .btn").click(DA_scroller);
 
-    // activate top info reminders
-    $(window).scroll(reminderSpy)
-
     // activate scroll spy
     $(window).scroll(displaySpy);
     //activate the first part
@@ -188,8 +185,8 @@ function setupInteraction() {
 
     // });
 
-    // const frontImg = new Freezeframe('.card-deck .card-img');
-    // $(".card-deck .card-img").onload(function(){
+    // const logo = new Freezeframe('.front > .card-img');
+    // $(".front > .card-img").onload(function(){
     //     var parentsSet = $(this).parentsUntil(".card-deck");
     //     var name = $(parentsSet[parentsSet.length - 1]).attr("name");
     //     const logo = new Freezeframe("[name=\'" + name + "\'] .front > .card-img");
@@ -332,11 +329,11 @@ function createDA(DA_doc, classStr) {
             display_title.prepend($("<span></span>").css("background-color", DA_nav_color));
 
             let display_top = $("<div></div>")
-                                .addClass("deck-reminder")
+                                .addClass("sticky-top deck-reminder")
                                 .css({
-                                    "top": document.querySelector("#card-display").getBoundingClientRect().top,
-                                    // "background-color": "white",
-                                    // "z-index": 500
+                                    "top": document.querySelector("#card-display").offsetTop + 1,
+                                    "background-color": "white",
+                                    "z-index": 500
                                 })
                                 .append(display_title)
                                 .append($("<p></p>").addClass("display-desc").text(DA_desc))
@@ -538,7 +535,6 @@ AIE_Card.prototype._eventBinding = function() {
     let thisCard = this; // data object
     let Card = this._Card; // DOM object
     let modalWindowCarousel = $("#carouselModal").get(0); // carousel in modal frame
-    let frontImg = $(this._FrontGif).children().get(0);
 
     // bind with carousel
     $(this._BackCarousel).on("slide.bs.carousel", function(event) {
@@ -580,16 +576,7 @@ AIE_Card.prototype._eventBinding = function() {
 
             carouselItem.appendTo(carouselInner);
         });
-    });
-
-    // bind with gif hover listener
-    const ffGif = new Freezeframe($(frontImg), {
-        trigger: 'hover',
-        overlay: false,
-        responsive: true,
-        warnings: false
-    });
-
+    })
 }
 
 // Public method
@@ -1233,54 +1220,7 @@ function displaySpy() {
             // $(".deck-reminder").empty();
             // $($(item).find(".display-title").get(0)).clone(false).appendTo(".deck-reminder");
             // $($(item).find(".display-sub-label").get(0)).clone(false).appendTo(".deck-reminder");
-            // console.log("once")
-        }
-    });
-}
-
-// listen to reminder div beneath each card-deck
-function reminderSpy() {
-    // const windowTop = parseInt(Math.round(window.pageYOffset));
-    let nav = document.querySelector("header");
-    // let displayHeight = window.innerHeight - nav.offsetHeight;
-    let current_active_sticky =document.querySelector(".deck-reminder.active-sticky");
-    let allReminders = Array.from(document.querySelectorAll(".deck-reminder"));
-    allReminders.some(function(sticky, index, nodeList) {
-        let reminderToHeader = parseInt(Math.round(sticky.getBoundingClientRect().top)) - nav.offsetHeight;
-        
-
-        if(sticky.classList.contains("active-sticky")) {
-            if(sticky.getBoundingClientRect().bottom <= sticky.nextElementSibling.getBoundingClientRect().top) {
-                // console.log("A");
-                // console.log(index+1, reminderToHeader);
-                sticky.classList.remove("active-sticky");
-                $($(sticky).find(".display-desc").get(0)).slideDown(360);
-            }
-            return false;
-        }
-
-        // if(current_active_sticky && (reminderToHeader > (current_active_sticky.offsetHeight + sticky.offsetHeight))) {
-        if(current_active_sticky && (reminderToHeader >= 1)) {
-            // console.log("A");
-            // sticky.classList.remove("active-sticky");
-            // console.log(index+1, reminderToHeader);
-            // console.log("B");
-            $($(sticky).find(".display-desc").get(0)).slideDown(240);
-            // return false;
-        }
-
-        // if(Math.abs(reminderToHeader) < 5) {
-        if(Math.abs(reminderToHeader) < 1) {
-            // console.log(index+1, reminderToHeader);
-            // console.log("C");
-            $($(sticky).find(".display-desc").get(0)).slideUp(360);
-            sticky.classList.add("active-sticky");
-
-            if(current_active_sticky) {
-                current_active_sticky.classList.remove("active-sticky");
-            }
-
-            return true;
+            console.log("once")
         }
     });
 }
@@ -1398,8 +1338,8 @@ function searchResultDisplay() {
 
 // set filter panel
 function panelLayout() {
-    let bannerHeight = $("header").outerHeight();
-    let panel = $("#filter-panel");
+    var bannerHeight = $("header").outerHeight();
+    var panel = $("#filter-panel");
     panel.css({
         // "position": "sticky",
         // "overflow-y": "auto",

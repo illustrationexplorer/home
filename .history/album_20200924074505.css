@@ -1258,5 +1258,4 @@ button.close > span {
 
 .ff-container.ff-inactive .ff-canvas.ff-canvas-ready {
   height: 100%;
-  object-fit: cover;
 }

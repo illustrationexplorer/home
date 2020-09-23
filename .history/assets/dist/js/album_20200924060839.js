@@ -188,8 +188,8 @@ function setupInteraction() {
 
     // });
 
-    // const frontImg = new Freezeframe('.card-deck .card-img');
-    // $(".card-deck .card-img").onload(function(){
+    // const logo = new Freezeframe('.front > .card-img');
+    // $(".front > .card-img").onload(function(){
     //     var parentsSet = $(this).parentsUntil(".card-deck");
     //     var name = $(parentsSet[parentsSet.length - 1]).attr("name");
     //     const logo = new Freezeframe("[name=\'" + name + "\'] .front > .card-img");
@@ -538,7 +538,6 @@ AIE_Card.prototype._eventBinding = function() {
     let thisCard = this; // data object
     let Card = this._Card; // DOM object
     let modalWindowCarousel = $("#carouselModal").get(0); // carousel in modal frame
-    let frontImg = $(this._FrontGif).children().get(0);
 
     // bind with carousel
     $(this._BackCarousel).on("slide.bs.carousel", function(event) {
@@ -580,16 +579,7 @@ AIE_Card.prototype._eventBinding = function() {
 
             carouselItem.appendTo(carouselInner);
         });
-    });
-
-    // bind with gif hover listener
-    const ffGif = new Freezeframe($(frontImg), {
-        trigger: 'hover',
-        overlay: false,
-        responsive: true,
-        warnings: false
-    });
-
+    })
 }
 
 // Public method
@@ -1251,8 +1241,8 @@ function reminderSpy() {
 
         if(sticky.classList.contains("active-sticky")) {
             if(sticky.getBoundingClientRect().bottom <= sticky.nextElementSibling.getBoundingClientRect().top) {
-                // console.log("A");
-                // console.log(index+1, reminderToHeader);
+                console.log("A");
+                console.log(index+1, reminderToHeader);
                 sticky.classList.remove("active-sticky");
                 $($(sticky).find(".display-desc").get(0)).slideDown(360);
             }
@@ -1260,19 +1250,19 @@ function reminderSpy() {
         }
 
         // if(current_active_sticky && (reminderToHeader > (current_active_sticky.offsetHeight + sticky.offsetHeight))) {
-        if(current_active_sticky && (reminderToHeader >= 1)) {
+        if(current_active_sticky && (reminderToHeader >= 5)) {
             // console.log("A");
             // sticky.classList.remove("active-sticky");
-            // console.log(index+1, reminderToHeader);
-            // console.log("B");
+            console.log(index+1, reminderToHeader);
+            console.log("B");
             $($(sticky).find(".display-desc").get(0)).slideDown(240);
             // return false;
         }
 
         // if(Math.abs(reminderToHeader) < 5) {
-        if(Math.abs(reminderToHeader) < 1) {
-            // console.log(index+1, reminderToHeader);
-            // console.log("C");
+        if(Math.abs(reminderToHeader) < 5) {
+            console.log(index+1, reminderToHeader);
+            console.log("C");
             $($(sticky).find(".display-desc").get(0)).slideUp(360);
             sticky.classList.add("active-sticky");
 

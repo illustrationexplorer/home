@@ -590,6 +590,10 @@ AIE_Card.prototype._eventBinding = function() {
         warnings: false
     });
 
+    ffGif.on("stop", (items) => {
+        console.log(items);
+    })
+
 }
 
 // Public method

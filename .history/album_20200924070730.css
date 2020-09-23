@@ -1244,18 +1244,6 @@ button.close > span {
   background-image: linear-gradient(to bottom, #00000000, #00000060);
 }
 
-.ff-container {
-  height: 100%;
-}
-
-.ff-container.ff-responsive {
-  height: 100%;
-}
-
-.card-img .ff-image {
-  height: 100%;
-}
-
 .ff-container.ff-inactive .ff-canvas.ff-canvas-ready {
   height: 100%;
   object-fit: cover;

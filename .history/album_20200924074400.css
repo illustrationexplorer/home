@@ -1255,8 +1255,3 @@ button.close > span {
 .card-img .ff-image {
   height: 100%;
 }
-
-.ff-container.ff-inactive .ff-canvas.ff-canvas-ready {
-  height: 100%;
-  object-fit: cover;
-}

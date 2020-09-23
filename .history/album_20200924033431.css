@@ -172,6 +172,8 @@
   background-position: center;
   background-attachment:fixed;
   background-size:60vh;
+
+  /* padding: 0; */
 }
 
 .deck-reminder {
@@ -181,7 +183,7 @@
 
   position: sticky;
   width: 100%;
-  z-index: 500;
+  z-index: 1200;
   top: 116.5px;
 }
 
@@ -1242,21 +1244,4 @@ button.close > span {
   height: 25%;
   bottom: 0;
   background-image: linear-gradient(to bottom, #00000000, #00000060);
-}
-
-.ff-container {
-  height: 100%;
-}
-
-.ff-container.ff-responsive {
-  height: 100%;
-}
-
-.card-img .ff-image {
-  height: 100%;
-}
-
-.ff-container.ff-inactive .ff-canvas.ff-canvas-ready {
-  height: 100%;
-  object-fit: cover;
 }

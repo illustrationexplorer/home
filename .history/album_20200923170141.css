@@ -84,26 +84,14 @@
   }
 
   #card-display {
-    padding: 0;
-  }
-
-  #card-display .sticky-top {
     padding-top: 1.375rem;
     padding-left: 2.75rem;
     padding-right: 2rem;
   }
 
-  #card-display .card-deck {
-    margin-right: 0px;
-    margin-left: 0px;
-    padding-left: 1.75rem;
-    padding-right: 1rem;
-  }
-
   #filter-panel {
     min-width: 15rem;
     overflow-x: hidden;
-
     padding-left: 0.125rem;
     padding-right: 1.375rem;
   }
@@ -172,44 +160,21 @@
   background-position: center;
   background-attachment:fixed;
   background-size:60vh;
+
+  padding: 0;
 }
+
+/* .sticky-top {
+  z-index: 500;
+} */
 
 .deck-reminder {
-  padding-top: 1.375rem;
-  padding-left: 2.75rem;
-  padding-right: 2rem;
-
-  position: sticky;
-  width: 100%;
-  z-index: 500;
-  top: 116.5px;
-}
-
-.deck-reminder.active-sticky {
-
-  /* display: flex; */
-
   backdrop-filter: saturate(180%) blur(20px);
-  background-color: transparent;
+  background-color: #FFFFFF72;
   border-bottom: 1px solid #00000016;
-  box-shadow: 0 1px 2px #DCDFEF32;
+  border-left: 1px solid #00000016;
+  border-right: 1px solid #00000016;
 }
-
-/* .deck-reminder.actively {
-  opacity: 1;
-} */
-
-/* .deck-reminder.actively.disapear {
-  opacity: 0;
-} */
-
-/* .deck-reminder.active-sticky > .display-title {
-  margin-right: auto;
-} */
-
-/* .deck-reminder.active-sticky > .display-desc {
-  display: none;
-} */
 
 footer {
   padding-top: 3rem;
@@ -1242,21 +1207,4 @@ button.close > span {
   height: 25%;
   bottom: 0;
   background-image: linear-gradient(to bottom, #00000000, #00000060);
-}
-
-.ff-container {
-  height: 100%;
-}
-
-.ff-container.ff-responsive {
-  height: 100%;
-}
-
-.card-img .ff-image {
-  height: 100%;
-}
-
-.ff-container.ff-inactive .ff-canvas.ff-canvas-ready {
-  height: 100%;
-  object-fit: cover;
 }
