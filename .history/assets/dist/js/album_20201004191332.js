@@ -727,6 +727,7 @@ DA_Nav.prototype._topEventBinding = function () {
             
             // hidden
              if(parseInt(display_deck.getBoundingClientRect()["bottom"]) - parseInt(container.getBoundingClientRect()["top"]) <= deltaY) {
+                 console.log("BBBBBBB010101", thisDA_Nav._DA_nav_tag)
                 if(parseInt(getComputedStyle(sticky_top, null)["opacity"]) === 1)
                     $(sticky_top).fadeTo(240, 0);
                 return ;
@@ -739,11 +740,13 @@ DA_Nav.prototype._topEventBinding = function () {
             // if sticky top has a solid top value -> in sticky, decorated shown (2)
             // shown
             if(parseFloat(getComputedStyle(sticky_top, null)["opacity"]) === 0){
+                console.log("BBBBBBB020202", thisDA_Nav._DA_nav_tag)
                 $(sticky_top).fadeTo(240, 1);
             }
 
         } else {
             // this sticky top has already been replaced by the next one -> not in sticky, decorated hidden (3)
+            console.log("CCCCCCCCCCCCC", thisDA_Nav._DA_nav_tag)
 
             // not in sticky
             if(thisDA_Nav._inSticky())

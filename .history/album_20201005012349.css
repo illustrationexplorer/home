@@ -1116,8 +1116,8 @@ ul.btn-sub-list + button {
   /* padding: 0; */
   /* margin: 0; */
   /* top: -0.5rem; */
-  right: -12%;
-  top: 10%;
+  right: -2.5rem;
+  top: -0.5rem;
   /* transform: translateY(-100%); */
 }
 
@@ -1152,7 +1152,7 @@ ul.btn-sub-list + button {
   position: absolute !important;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateY(-50%, -50%);
 }
 
 button.close {

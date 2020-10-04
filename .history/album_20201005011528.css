@@ -1116,8 +1116,8 @@ ul.btn-sub-list + button {
   /* padding: 0; */
   /* margin: 0; */
   /* top: -0.5rem; */
-  right: -12%;
-  top: 10%;
+  right: -2.5rem;
+  top: -0.5rem;
   /* transform: translateY(-100%); */
 }
 
@@ -1131,15 +1131,16 @@ ul.btn-sub-list + button {
 
 .modal-body .carousel-inner {
   max-width: 100%;
-  /* width: 100%; */
-  height: 700px;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .modal-body .carousel-item {
   max-width: 100%;
-  max-height: 100%;
+  /* max-height: 100%; */
   width: 100%;
-  height: 100%;
+  height: 700px;
 }
 
 .modal-body .carousel-item > img {
@@ -1149,10 +1150,10 @@ ul.btn-sub-list + button {
   max-width: 100%;
   max-height: 100%;
   border-radius: 1rem;
-  position: absolute !important;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  /* position: absolute !important; */
+  /* top: 50%; */
+  /* left: 50%; */
+  /* transform: translateY(-50%, -50%); */
 }
 
 button.close {
