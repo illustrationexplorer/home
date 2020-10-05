@@ -1292,24 +1292,19 @@ button.close > span {
   object-fit: cover;
 } */
 
-#card-display::-webkit-scrollbar {
-  width: 12px;
-  height: 1px;
-}
-
-.card ::-webkit-scrollbar {
-  width: 5px;
-  height: 1px;
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
   box-shadow   : inset 0 0 5px rgba(0, 0, 0, 0.2);
-  background   : #00000036;
+  background   : #535353;
 }
 
 ::-webkit-scrollbar-track {
   box-shadow   : inset 0 0 5px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
-  background   : #ededed26;
+  background   : #ededed;
 }

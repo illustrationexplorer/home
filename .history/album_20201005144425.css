@@ -1293,7 +1293,7 @@ button.close > span {
 } */
 
 #card-display::-webkit-scrollbar {
-  width: 12px;
+  width: 10px;
   height: 1px;
 }
 
@@ -1305,7 +1305,7 @@ button.close > span {
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
   box-shadow   : inset 0 0 5px rgba(0, 0, 0, 0.2);
-  background   : #00000036;
+  background   : #00000050;
 }
 
 ::-webkit-scrollbar-track {

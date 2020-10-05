@@ -764,7 +764,6 @@ DA_Nav.prototype._topEventBinding = function () {
     }
 
     container.addEventListener("scroll", stickySpy);
-    // document.querySelectorAll(".btn-secondary-group > button, .btn-secondary-group li").forEach(btn => btn.addEventListener("click", stickySpy));
     stickySpy();
 }
 
