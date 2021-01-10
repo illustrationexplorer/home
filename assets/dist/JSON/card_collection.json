@@ -1,0 +1,777 @@
+[
+    
+    {
+        "card_id": 1,
+        "card_title": "Run",
+        "OT_tag": "Character",
+        "how": "A character moving forward with very wide stride and arms swing in an exaggerated fashion.",
+        "why": "To show the character running for exercise, chasing, fleeing, and racing. Sometimes it hints at the development of the plot.\t ",
+        "eg_arr": [
+            {
+                "NI_tag_id": 102,
+                "NI_tag": "Explaining a Concept",
+                "eg_id": 868,
+                "eg_designer": "Google Doodles",
+                "eg_year": "2018",
+                "eg_source": "Google Doodles",
+                "eg_url": "https://www.google.com/doodles/celebrating-altamira-cave"
+            },
+            {
+                "NI_tag_id": 106,
+                "NI_tag": "Creating Imagery",
+                "eg_id": 1035,
+                "eg_designer": "Misato",
+                "eg_year": "2020",
+                "eg_source": "Twitter",
+                "eg_url": "https://twitter.com/misato08280"
+            },
+            {
+                "NI_tag_id": 101,
+                "NI_tag": "Emphasizing an Action",
+                "eg_id": 1043,
+                "eg_designer": "Fraser Davidson",
+                "eg_year": "2018",
+                "eg_source": "Dribbble",
+                "eg_url": "https://dribbble.com/shots/5064040-Running"
+            },
+            {
+                "NI_tag_id": 103,
+                "NI_tag": "Advancing a Plot",
+                "eg_id": 955,
+                "eg_designer": "Google Doodles",
+                "eg_year": "2015",
+                "eg_source": "Google Doodles",
+                "eg_url": "https://www.google.com/doodles/lunar-new-year-2015"
+            }
+        ]
+    },
+    {
+        "card_id": 2,
+        "card_title": "Walk",
+        "OT_tag": "Character",
+        "how": "A character walks forward at a low speed.\n We can see how the body rises and dips at certain points throughout the action.",
+        "why": "Show the different physical and psychological states of the character through the dynamics of walking.",
+        "eg_arr": [
+            {
+                "NI_tag_id": 101,
+                "NI_tag": "Emphasizing an Action",
+                "eg_id": 463,
+                "eg_designer": "Antonius Setiadi K",
+                "eg_year": "2020",
+                "eg_source": "Dribbble",
+                "eg_url": "https://dribbble.com/shots/11401506-Walking-Cycle"
+            },
+            {
+                "NI_tag_id": 102,
+                "NI_tag": "Explaining a Concept",
+                "eg_id": 828,
+                "eg_designer": "Google Doodles",
+                "eg_year": "2020",
+                "eg_source": "Google Doodles",
+                "eg_url": "https://www.google.com/doodles/celebrating-the-mariniere"
+            },
+            {
+                "NI_tag_id": 103,
+                "NI_tag": "Advancing a Plot",
+                "eg_id": 962,
+                "eg_designer": "Google Doodles",
+                "eg_year": "2014",
+                "eg_source": "Google Doodles",
+                "eg_url": "https://www.google.com/doodles/world-cup-2014-27"
+            },
+            {
+                "NI_tag_id": 104,
+                "NI_tag": "Communicating an Emotion",
+                "eg_id": 1008,
+                "eg_designer": "Jona Dinges",
+                "eg_year": "2015",
+                "eg_source": "Dribbble",
+                "eg_url": "https://dribbble.com/shots/1913272-Depressed-Slurp-Cycle"
+            }
+        ]
+    },
+    {
+        "card_id": 3,
+        "card_title": "Bounce",
+        "OT_tag": "Character",
+        "how": "Enhance the action even in objects made from rigid materials. Help to give an object personality.",
+        "why": "Adds dynamics to a narrative by simulating specific\nmotions.",
+        "eg_arr": [
+            {
+                "NI_tag_id": 102,
+                "NI_tag": "Explaining a Concept",
+                "eg_id": 878,
+                "eg_designer": "Google Doodles",
+                "eg_year": "2016",
+                "eg_source": "Google Doodles",
+                "eg_url": "https://www.google.com/doodles/leap-year-2016"
+            },
+            {
+                "NI_tag_id": 101,
+                "NI_tag": "Emphasizing an Action",
+                "eg_id": 1050,
+                "eg_designer": "Lisa Maria Prantl",
+                "eg_year": "2020",
+                "eg_source": "Dribbble",
+                "eg_url": "https://dribbble.com/shots/11317075-Pferdchen"
+            },
+            {
+                "NI_tag_id": 104,
+                "NI_tag": "Communicating an Emotion",
+                "eg_id": 1025,
+                "eg_designer": "Daan Snels",
+                "eg_year": "2020",
+                "eg_source": "Dribbble",
+                "eg_url": "https://dribbble.com/shots/14210299-073elektrisch-3"
+            }
+        ]
+    },
+    {
+        "card_id": 4,
+        "card_title": "Move along a path",
+        "OT_tag": "Character",
+        "how": "An element moves along a path.",
+        "why": "Animate the complete trajectory of the creatures to show the specific behavior and habits of the creatures.",
+        "eg_arr": [
+            {
+                "NI_tag_id": 105,
+                "NI_tag": "Creating an Atmosphere",
+                "eg_id": 1047,
+                "eg_designer": "Kirokaze",
+                "eg_year": "2017",
+                "eg_source": "Twitter",
+                "eg_url": "https://twitter.com/i/status/930808567359139841"
+            },
+            {
+                "NI_tag_id": 106,
+                "NI_tag": "Creating Imagery",
+                "eg_id": 1014,
+                "eg_designer": "Lobster",
+                "eg_year": "2019",
+                "eg_source": "Dribbble",
+                "eg_url": "https://dribbble.com/shots/5892761-Natural-music"
+            },
+            {
+                "NI_tag_id": 101,
+                "NI_tag": "Emphasizing an Action",
+                "eg_id": 1015,
+                "eg_designer": "Remigijus Klimovas",
+                "eg_year": "2019",
+                "eg_source": "Dribbble",
+                "eg_url": "https://dribbble.com/shots/6964492-Expressive-Bird-Animation"
+            }
+        ]
+    },
+    {
+        "card_id": 5,
+        "card_title": "Facial expression",
+        "OT_tag": "Character",
+        "how": "One or more motions or positions of the muscles beneath the skin of the face.",
+        "why": "They are a primary way to express the inner activity of a character. They can also convey social information between humans or other animal species.  ",
+        "eg_arr": [
+            {
+                "NI_tag_id": 103,
+                "NI_tag": "Advancing a Plot",
+                "eg_id": 1031,
+                "eg_designer": "Google Doodles",
+                "eg_year": "2015",
+                "eg_source": "Google Doodles",
+                "eg_url": "https://www.google.com/doodles/800th-anniversary-of-the-magna-carta"
+            },
+            {
+                "NI_tag_id": 104,
+                "NI_tag": "Communicating an Emotion",
+                "eg_id": 1028,
+                "eg_designer": "Christoffer Klungerbo",
+                "eg_year": "2020",
+                "eg_source": "Dribbble",
+                "eg_url": "https://dribbble.com/shots/10485057-Cat-Things"
+            }
+        ]
+    },
+    {
+        "card_id": 6,
+        "card_title": "Wave",
+        "OT_tag": "Character",
+        "how": "Move as an undulating or wavy form.",
+        "why": "Some creatures such as fish may move like a wave. Use the action to emphasize the unique way of movement.",
+        "eg_arr": [
+            {
+                "NI_tag_id": 101,
+                "NI_tag": "Emphasizing an Action",
+                "eg_id": 1038,
+                "eg_designer": "Tony Babel",
+                "eg_year": "2020",
+                "eg_source": "Dribbble",
+                "eg_url": "https://dribbble.com/shots/9710323-Just-keep-swimming"
+            }
+        ]
+    },
+    {
+        "card_id": 7,
+        "card_title": "Wag",
+        "OT_tag": "Character",
+        "how": "A fast vibrating movement.",
+        "why": "To show the character waving hands or wags its tail to transmit information. ",
+        "eg_arr": [
+            {
+                "NI_tag_id": 101,
+                "NI_tag": "Emphasizing an Action",
+                "eg_id": 72,
+                "eg_designer": "Jean",
+                "eg_year": "2018",
+                "eg_source": "Zcool",
+                "eg_url": "https://www.zcool.com.cn/work/ZMjY4MjQzNjg=.html"
+            },
+            {
+                "NI_tag_id": 106,
+                "NI_tag": "Creating Imagery",
+                "eg_id": 460,
+                "eg_designer": "Tagtraum",
+                "eg_year": "2019",
+                "eg_source": "Neocha",
+                "eg_url": "http://neocha.com/magazine/daydreaming-with-tagtraum/"
+            },
+            {
+                "NI_tag_id": 104,
+                "NI_tag": "Communicating an Emotion",
+                "eg_id": 1006,
+                "eg_designer": "MUTI",
+                "eg_year": "2020",
+                "eg_source": "Dribbble",
+                "eg_url": "https://dribbble.com/shots/11608350-Waiting"
+            }
+        ]
+    },
+    {
+        "card_id": 8,
+        "card_title": "Touch",
+        "OT_tag": "Character",
+        "how": "Strike or push lightly especially with the hand.",
+        "why": "Show the timely interaction process between characters and objects.",
+        "eg_arr": [
+            {
+                "NI_tag_id": 102,
+                "NI_tag": "Explaining a Concept",
+                "eg_id": 800,
+                "eg_designer": "Google Doodles",
+                "eg_year": "2020",
+                "eg_source": "Google Doodles",
+                "eg_url": "https://www.google.com/doodles/celebrating-summer-2020-and-the-great-conjunction-southern-hemisphere"
+            },
+            {
+                "NI_tag_id": 103,
+                "NI_tag": "Advancing a Plot",
+                "eg_id": 949,
+                "eg_designer": "Vladimir Marchukov ",
+                "eg_year": "2019",
+                "eg_source": "Dribbble",
+                "eg_url": "https://dribbble.com/shots/6414872-Deep-work"
+            }
+        ]
+    },
+    {
+        "card_id": 9,
+        "card_title": "Throw in",
+        "OT_tag": "Character",
+        "how": " The arc of the throw is a major constituent of the action, with the hand coming from waist height, extending above the head, and ending up across the body.",
+        "why": "Show the process of throwing things. Sometimes it triggers the anticipation of consequent events.",
+        "eg_arr": [
+            {
+                "NI_tag_id": 101,
+                "NI_tag": "Emphasizing an Action",
+                "eg_id": 1022,
+                "eg_designer": "Zakmotion",
+                "eg_year": "2020",
+                "eg_source": "Dribbble",
+                "eg_url": "https://dribbble.com/shots/10907962-a-pigeon-player-in-the-hood"
+            },
+            {
+                "NI_tag_id": 103,
+                "NI_tag": "Advancing a Plot",
+                "eg_id": 1029,
+                "eg_designer": "Zakmotion",
+                "eg_year": "2020",
+                "eg_source": "Dribbble",
+                "eg_url": "https://dribbble.com/shots/13980423-nighte-trashes"
+            }
+        ]
+    },
+    {
+        "card_id": 10,
+        "card_title": "Push",
+        "OT_tag": "Character",
+        "how": "During a push, the weight of the figure may be utilized in order to induce movement in the object.",
+        "why": "Animate the actions of the character to visualize the amount of force it exerts and the weight of the object being pushed.",
+        "eg_arr": [
+            {
+                "NI_tag_id": 101,
+                "NI_tag": "Emphasizing an Action",
+                "eg_id": 706,
+                "eg_designer": "Elen Winata",
+                "eg_year": "2020",
+                "eg_source": "Dribbble",
+                "eg_url": "https://dribbble.com/shots/14326270-WFH-Vibes-20Gifsfor2020"
+            },
+            {
+                "NI_tag_id": 103,
+                "NI_tag": "Advancing a Plot",
+                "eg_id": 1023,
+                "eg_designer": "Zakmotion",
+                "eg_year": "2020",
+                "eg_source": "Dribbble",
+                "eg_url": "https://dribbble.com/shots/12481869-play-chess"
+            }
+        ]
+    },
+    {
+        "card_id": 11,
+        "card_title": "Pull",
+        "OT_tag": "Character",
+        "how": "A figure engaged in a pulling action may achieve a position that appears unbalanced though is in effect supported by the mass of the object being pulled.",
+        "why": "To show the interaction between characters or objects. Trigger the anticipation of consequent events or explaining a Concept.",
+        "eg_arr": [
+            {
+                "NI_tag_id": 101,
+                "NI_tag": "Emphasizing an Action",
+                "eg_id": 224,
+                "eg_designer": "Guillaume Kurkdjian",
+                "eg_year": "2016",
+                "eg_source": "Paper Darts",
+                "eg_url": "http://paperdartsmagazine.com/art-archive/2017/9/19/guillaume-kurkdjian"
+            },
+            {
+                "NI_tag_id": 103,
+                "NI_tag": "Advancing a Plot",
+                "eg_id": 1021,
+                "eg_designer": "Zakmotion",
+                "eg_year": "2020",
+                "eg_source": "Dribbble",
+                "eg_url": "https://dribbble.com/shots/14285159-fishing-during-corona"
+            }
+        ]
+    },
+    {
+        "card_id": 12,
+        "card_title": "Flap",
+        "OT_tag": "Character",
+        "how": "To strike directly against forcefully and repeatedly. ",
+        "why": "To show the interaction between characters or objects. Trigger the anticipation of consequent events or explaining a Concept.",
+        "eg_arr": [
+            {
+                "NI_tag_id": 102,
+                "NI_tag": "Explaining a Concept",
+                "eg_id": 846,
+                "eg_designer": "Google Doodles",
+                "eg_year": "2019",
+                "eg_source": "Google Doodles",
+                "eg_url": "https://www.google.com/doodles/celebrating-falafel"
+            },
+            {
+                "NI_tag_id": 101,
+                "NI_tag": "Emphasizing an Action",
+                "eg_id": 848,
+                "eg_designer": "Google Doodles",
+                "eg_year": "2019",
+                "eg_source": "Google Doodles",
+                "eg_url": "https://www.google.com/doodles/dragon-boat-festival-2019"
+            }
+        ]
+    },
+    {
+        "card_id": 13,
+        "card_title": "Cycle",
+        "OT_tag": "Character",
+        "how": "A character riding a bicycle.",
+        "why": "Emphasize the character's traveling state when riding a bicycle.",
+        "eg_arr": [
+            {
+                "NI_tag_id": 101,
+                "NI_tag": "Emphasizing an Action",
+                "eg_id": 1020,
+                "eg_designer": "Lemons",
+                "eg_year": "2020",
+                "eg_source": "Dribbble",
+                "eg_url": "https://dribbble.com/shots/13935735-Bicyclists"
+            }
+        ]
+    },
+    {
+        "card_id": 14,
+        "card_title": "Slide",
+        "OT_tag": "Character",
+        "how": "When the initial force is given to the object, the object continues to move for a certain distance.",
+        "why": "Follow the laws of motion in reality. The motion of an object accelerates in the direction of the force applied to it.",
+        "eg_arr": [
+            {
+                "NI_tag_id": 101,
+                "NI_tag": "Emphasizing an Action",
+                "eg_id": 1005,
+                "eg_designer": "Phenomenon Studio",
+                "eg_year": "2020",
+                "eg_source": "Dribbble",
+                "eg_url": "https://dribbble.com/shots/14217399-Skater-Illustration"
+            }
+        ]
+    },
+    {
+        "card_id": 15,
+        "card_title": "Follow through",
+        "OT_tag": "Character",
+        "how": "Animate an extremity belonging to the character, such as a coat or tail.",
+        "why": "Imitate the movement of an extremity depending on its own weight and flexibility, the action of characters, and air resistance. To communicate an Emotion or create an Atmosphere.",
+        "eg_arr": [
+            {
+                "NI_tag_id": 105,
+                "NI_tag": "Creating an Atmosphere",
+                "eg_id": 1044,
+                "eg_designer": "Kirokaze",
+                "eg_year": "2020",
+                "eg_source": "Twitter",
+                "eg_url": "https://twitter.com/i/status/1293615872892899328"
+            }
+        ]
+    },
+    {
+        "card_id": 16,
+        "card_title": "Fall",
+        "OT_tag": "Environment",
+        "how": "Light things drop or come down freely under the influence of gravity.",
+        "why": "To show very light objects, they become separated and fall to the ground, such as leaves and snow. It can usually create an atmosphere or reflect the mood of the character. ",
+        "eg_arr": [
+            {
+                "NI_tag_id": 105,
+                "NI_tag": "Creating an Atmosphere",
+                "eg_id": 804,
+                "eg_designer": "Google Doodles",
+                "eg_year": "2020",
+                "eg_source": "Google Doodles",
+                "eg_url": "https://www.google.com/doodles/ivan-bunins-150th-birthday"
+            }
+        ]
+    },
+    {
+        "card_id": 17,
+        "card_title": "Scroll",
+        "OT_tag": "Environment",
+        "how": "When a forward-moving object is set as the frame of reference, the originally stationary object will appear to move in the opposite direction.",
+        "why": "Speed is one part of velocity, direction is the other part. Depending on the frame of reference, the velocity can be defined with many mathematical concepts required for making the correct analysis.",
+        "eg_arr": [
+            {
+                "NI_tag_id": 105,
+                "NI_tag": "Creating an Atmosphere",
+                "eg_id": 732,
+                "eg_designer": "Anastasia Teslenko",
+                "eg_year": "2020",
+                "eg_source": "Dribbble",
+                "eg_url": "https://dribbble.com/shots/14602377-Scooter-Rent-Home-Page-Animated"
+            }
+        ]
+    },
+    {
+        "card_id": 18,
+        "card_title": "Bloom",
+        "OT_tag": "Environment",
+        "how": "Flowers bloom from the centre.",
+        "why": "Speed up the display of the moment of blooming flowers in reality. It can usually create a pleasurable atmosphere.",
+        "eg_arr": [
+            {
+                "NI_tag_id": 101,
+                "NI_tag": "Emphasizing an Action",
+                "eg_id": 887,
+                "eg_designer": "Google Doodles",
+                "eg_year": "2018",
+                "eg_source": "Google Doodles",
+                "eg_url": "https://www.google.com/doodles/25th-anniversary-of-rafflesia-arnoldii"
+            }
+        ]
+    },
+    {
+        "card_id": 19,
+        "card_title": "Ripple",
+        "OT_tag": "Environment",
+        "how": "Wave moves from left to right. It has the peak and the tough, and in between them to the next peak and trough.",
+        "why": "Animate the continuous deformation process of the water surface affected by wind. Add dynamics to a narrative.",
+        "eg_arr": [
+            {
+                "NI_tag_id": 105,
+                "NI_tag": "Creating an Atmosphere",
+                "eg_id": 1007,
+                "eg_designer": "Jona Dinges",
+                "eg_year": "2020",
+                "eg_source": "Dribbble",
+                "eg_url": "https://dribbble.com/shots/13949786-Pool-Day"
+            }
+        ]
+    },
+    {
+        "card_id": 20,
+        "card_title": "Sway",
+        "OT_tag": "Environment",
+        "how": "When blown by gusty wind, the flexible object tends to sway in their natural vibration period.",
+        "why": "Visualize the effects of friction, air resistance, and wind. Use the wind to give life to an animated object.",
+        "eg_arr": [
+            {
+                "NI_tag_id": 105,
+                "NI_tag": "Creating an Atmosphere",
+                "eg_id": 306,
+                "eg_designer": "Lukasz Buda",
+                "eg_year": "2018",
+                "eg_source": "Tumblr",
+                "eg_url": "https://lukasz-buda.tumblr.com"
+            }
+        ]
+    },
+    {
+        "card_id": 21,
+        "card_title": "Slow in and slow out",
+        "OT_tag": "Embellishments",
+        "how": "An object decelerates as moves from the first key toward the middle key and speed up as it moves away from the middle key.",
+        "why": "To Create spatial imagination. The plot on the screen extends beyond the screen.",
+        "eg_arr": [
+            {
+                "NI_tag_id": 105,
+                "NI_tag": "Creating an Atmosphere",
+                "eg_id": 1049,
+                "eg_designer": "Kirokaze",
+                "eg_year": "2016",
+                "eg_source": "Twitter",
+                "eg_url": "https://twitter.com/Kirokaze/status/814874774337912832"
+            }
+        ]
+    },
+    {
+        "card_id": 22,
+        "card_title": "Float",
+        "OT_tag": "Embellishments",
+        "how": "Objects are floating in the air or on the water, moving up and down or swaying from side to side.",
+        "why": "To show the influence of wind and buoyancy, an upward force exerted by a fluid that opposes the weight of a partially or fully immersed object.",
+        "eg_arr": [
+            {
+                "NI_tag_id": 101,
+                "NI_tag": "Emphasizing an Action",
+                "eg_id": 827,
+                "eg_designer": "Google Doodles",
+                "eg_year": "2020",
+                "eg_source": "Google Doodles",
+                "eg_url": "https://www.google.com/doodles/wubbo-ockels-74th-birthday"
+            }
+        ]
+    },
+    {
+        "card_id": 23,
+        "card_title": "Wiggle",
+        "OT_tag": "Embellishments",
+        "how": "An object moves or goes with short, quick, irregular movements from side to side.",
+        "why": "Shows that creatures or objects are trembling and bumping due to the influence of the external environment, or shaking due to mechanical operation.",
+        "eg_arr": [
+            {
+                "NI_tag_id": 101,
+                "NI_tag": "Emphasizing an Action",
+                "eg_id": 464,
+                "eg_designer": "Adam Kalin",
+                "eg_year": "2020",
+                "eg_source": "Dribbble",
+                "eg_url": "https://dribbble.com/shots/13370910-samochodzik"
+            },
+            {
+                "NI_tag_id": 102,
+                "NI_tag": "Explaining a Concept",
+                "eg_id": 850,
+                "eg_designer": "Google Doodles",
+                "eg_year": "2019",
+                "eg_source": "Google Doodles",
+                "eg_url": "https://www.google.com/doodles/first-image-of-a-black-hole"
+            },
+            {
+                "NI_tag_id": 104,
+                "NI_tag": "Communicating an Emotion",
+                "eg_id": 1027,
+                "eg_designer": "Petter Pentil?",
+                "eg_year": "2020",
+                "eg_source": "Dribbble",
+                "eg_url": "https://dribbble.com/shots/10545147-Corona"
+            }
+        ]
+    },
+    {
+        "card_id": 24,
+        "card_title": "Spin",
+        "OT_tag": "Embellishments",
+        "how": "An object revolve or rotate rapidly round its centre of gravity.",
+        "why": "Emphasizing the rotating state of an object.",
+        "eg_arr": [
+            {
+                "NI_tag_id": 105,
+                "NI_tag": "Creating an Atmosphere",
+                "eg_id": 1048,
+                "eg_designer": "Kirokaze",
+                "eg_year": "2017",
+                "eg_source": "Twitter",
+                "eg_url": "https://twitter.com/i/status/875022690654015489"
+            },
+            {
+                "NI_tag_id": 102,
+                "NI_tag": "Explaining a Concept",
+                "eg_id": 894,
+                "eg_designer": "Google Doodles",
+                "eg_year": "2017",
+                "eg_source": "Google Doodles",
+                "eg_url": "https://www.google.com/doodles/s-chandrasekhars-107th-birthday"
+            },
+            {
+                "NI_tag_id": 101,
+                "NI_tag": "Emphasizing an Action",
+                "eg_id": 957,
+                "eg_designer": "Google Doodles",
+                "eg_year": "2015",
+                "eg_source": "Google Doodles",
+                "eg_url": "https://www.google.com/doodles/81st-anniversary-of-the-loch-ness-monsters-most-famous-photograph"
+            }
+        ]
+    },
+    {
+        "card_id": 25,
+        "card_title": "Bend",
+        "OT_tag": "Embellishments",
+        "how": "An action brought about by the movement of air along the surface of the material, creating creases ripples and folds.",
+        "why": "Make the invisible wind visible. It can usually creating an atmosphere or reflect character's mood.",
+        "eg_arr": [
+            {
+                "NI_tag_id": 105,
+                "NI_tag": "Creating an Atmosphere",
+                "eg_id": 285,
+                "eg_designer": "Lukasz Buda",
+                "eg_year": "2018",
+                "eg_source": "Tumblr",
+                "eg_url": "https://lukasz-buda.tumblr.com/"
+            },
+            {
+                "NI_tag_id": 102,
+                "NI_tag": "Explaining a Concept",
+                "eg_id": 900,
+                "eg_designer": "Google Doodles",
+                "eg_year": "2017",
+                "eg_source": "Google Doodles",
+                "eg_url": "https://www.google.com/doodles/samuel-johnsons-308th-birthday"
+            }
+        ]
+    },
+    {
+        "card_id": 26,
+        "card_title": "Glow",
+        "OT_tag": "Special Effects",
+        "how": " Emit bright light and heat without flame.",
+        "why": "To visualize the shining of a light emitted by or as if by a substance heated to luminosity, exaggerate the flickering of light.",
+        "eg_arr": [
+            {
+                "NI_tag_id": 106,
+                "NI_tag": "Creating Imagery",
+                "eg_id": 735,
+                "eg_designer": "Outcrowd",
+                "eg_year": "2019",
+                "eg_source": "Dribbble",
+                "eg_url": "https://dribbble.com/shots/6121137-Illustration-Holding-the-Sun"
+            },
+            {
+                "NI_tag_id": 105,
+                "NI_tag": "Creating an Atmosphere",
+                "eg_id": 1001,
+                "eg_designer": "James Fenner",
+                "eg_year": "2020",
+                "eg_source": "Behance",
+                "eg_url": "https://www.behance.net/gallery/106985307/Inktober-2020-ANIMATED?tracking_source=search_projects_recommended%7Canimated%20illustration"
+            }
+        ]
+    },
+    {
+        "card_id": 27,
+        "card_title": "Particle system",
+        "OT_tag": "Special Effects",
+        "how": "The phenomena of fire, smoke, sparks, dust, etc. - these use particles that fade out quickly and are then re-emitted from the effect's source.",
+        "why": "To show usually highly chaotic systems, natural phenomena, or processes caused by chemical reactions. Add artistry or create atmosphere to the picture.",
+        "eg_arr": [
+            {
+                "NI_tag_id": 105,
+                "NI_tag": "Creating an Atmosphere",
+                "eg_id": 152,
+                "eg_designer": "Ofsparrows",
+                "eg_year": "2015",
+                "eg_source": "Tumblr",
+                "eg_url": "https://www.tumblr.com/blog/view/ofsparrows"
+            }
+        ]
+    },
+    {
+        "card_id": 28,
+        "card_title": "Grain Reducer",
+        "OT_tag": "Special Effects",
+        "how": "Animate puffs arranged on a wave pattern. Remain as individual puffs or merge into one another to form an irregular column.",
+        "why": "Exaggerate the impact of activities of a character or an object on the surrounding environment.",
+        "eg_arr": [
+            {
+                "NI_tag_id": 105,
+                "NI_tag": "Creating an Atmosphere",
+                "eg_id": 840,
+                "eg_designer": "Google Doodles",
+                "eg_year": "2019",
+                "eg_source": "Google Doodles",
+                "eg_url": "https://www.google.com/doodles/will-rogers-140th-birthday"
+            }
+        ]
+    },
+    {
+        "card_id": 29,
+        "card_title": "Unfold",
+        "OT_tag": "Special Effects",
+        "how": "Open or spread out from a folded position.",
+        "why": "Expand the dialog box and present its contents. It can trigger the anticipation of consequent events.",
+        "eg_arr": [
+            {
+                "NI_tag_id": 102,
+                "NI_tag": "Explaining a Concept",
+                "eg_id": 934,
+                "eg_designer": "Google Doodles",
+                "eg_year": "2016",
+                "eg_source": "Google Doodles",
+                "eg_url": "https://www.google.com/doodles/antoni-van-leeuwenhoeks-384th-birthday"
+            }
+        ]
+    },
+    {
+        "card_id": 30,
+        "card_title": "Explode",
+        "OT_tag": "Special Effects",
+        "how": "There is a quick anticipation of some sort, then a quick burst or series of bursts which should be kept going for some frames.",
+        "why": "Explosions are intended to shock the audience.",
+        "eg_arr": [
+            {
+                "NI_tag_id": 102,
+                "NI_tag": "Explaining a Concept",
+                "eg_id": 1040,
+                "eg_designer": "Belanna Zhou",
+                "eg_year": "2017",
+                "eg_source": "Dribbble",
+                "eg_url": "https://dribbble.com/shots/3401790-404-Page"
+            }
+        ]
+    },
+    {
+        "card_id": 31,
+        "card_title": "Symblize",
+        "OT_tag": "Special Effects",
+        "how": "Use juxtaposition, fusion, and replacement as an artful deviation in the form that adheres to an identifiable template.",
+        "why": "Visual rhetoric promises a system for identifying the most effective form of expression in any given case.?It can creating Imagery.",
+        "eg_arr": [
+            {
+                "NI_tag_id": 105,
+                "NI_tag": "Creating an Atmosphere",
+                "eg_id": 867,
+                "eg_designer": "Google Doodles",
+                "eg_year": "2018",
+                "eg_source": "Google Doodles",
+                "eg_url": "https://www.google.com/doodles/chiquinha-gonzagas-171st-birthday"
+            }
+        ]
+    }
+]

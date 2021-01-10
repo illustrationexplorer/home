@@ -1,0 +1,50 @@
+[
+    {
+        "id": 101,
+        "NI_tag": "Emphasizing an Action",
+        "total_num": 16,
+        "NI_desc": "Emphasis is one of the most supported narrative intents in animated illustrations and plays a fundamental role in animation design. It adds dynamics to a narrative by simulating specific motions, movements, or gestures.",
+        "main_color": "#9997D8",
+        "grad_color": "#C9C8EE"
+    },
+    {
+        "id": 102,
+        "NI_tag": "Explaining a Concept",
+        "total_num": 10,
+        "NI_desc": "Another class in narrative intents is explanation, which pertains to a sequence of actions that used to introduce abstract concepts or complex.Such intent is often used for an educational purpose by making abstract concepts emerged from a narrative directly observable.",
+        "main_color": "#8EAED7",
+        "grad_color": "#C1D7ED"
+    },
+    {
+        "id": 103,
+        "NI_tag": "Advancing a Plot",
+        "total_num": 7,
+        "NI_desc": "Advancing a plot is a narrative intent that used to depict the ongoing event and thus trigger the anticipation of consequent events. It is achieved by addressing the relationship between different elements of a narrative and is extensively used in animation design for visual discourse.",
+        "main_color": "#FFA87D",
+        "grad_color": "#FFD3B4"
+    },
+    {
+        "id": 104,
+        "NI_tag": "Communicating an Emotion",
+        "total_num": 5,
+        "NI_desc": "Communicating an emotion constitutes another common narrative intent served by animation techniques applied to illustrations.  It is frequently presented through animation, allowing the audience to develop empathy with the character of a narrative.",
+        "main_color": "#EBCC40",
+        "grad_color": "#F7E874"
+    },
+    {
+        "id": 105,
+        "NI_tag": "Creating an Atmosphere",
+        "total_num": 13,
+        "NI_desc": "Atmosphere refers to the aura of mood that surrounds a narrative (relaxation, reminiscence, horror)It is often established through the environment to evoke emotional responses from the audience. Creating an atmosphere is commonly used in cinematography and is considered as one of the essential features of cinematic storytelling.",
+        "main_color": "#A7C086",
+        "grad_color": "#D3E1BB"
+    },
+    {
+        "id": 106,
+        "NI_tag": "Creating Imagery",
+        "total_num": 4,
+        "NI_desc": "Visual imagery uses a metaphorical and symbolic language to formulate or modify attention and perception. Creating animated imagery in illustrations can introduce a novel perspective for the audience to read an illustration and thus improves its memorability.",
+        "main_color": "#98CEBD",
+        "grad_color": "#C9E9E0"
+    }
+]
