@@ -11,7 +11,7 @@
         "id": 102,
         "NI_tag": "Explaining a Concept",
         "total_num": 10,
-        "NI_desc": "Another class in narrative intents is explanation, which pertains to a sequence of actions that used to introduce abstract concepts or complex. Such intent is often used for an educational purpose by making abstract concepts emerged from a narrative directly observable.",
+        "NI_desc": "Another class in narrative intents is explanation, which pertains to a sequence of actions that used to introduce abstract concepts or complex.Such intent is often used for an educational purpose by making abstract concepts emerged from a narrative directly observable.",
         "main_color": "#8EAED7",
         "grad_color": "#C1D7ED"
     },
@@ -35,7 +35,7 @@
         "id": 105,
         "NI_tag": "Creating an Atmosphere",
         "total_num": 13,
-        "NI_desc": "Atmosphere refers to the aura of mood that surrounds a narrative (relaxation, reminiscence, horror). It is often established through the environment to evoke emotional responses from the audience. Creating an atmosphere is commonly used in cinematography and is considered as one of the essential features of cinematic storytelling.",
+        "NI_desc": "Atmosphere refers to the aura of mood that surrounds a narrative (relaxation, reminiscence, horror)It is often established through the environment to evoke emotional responses from the audience. Creating an atmosphere is commonly used in cinematography and is considered as one of the essential features of cinematic storytelling.",
         "main_color": "#A7C086",
         "grad_color": "#D3E1BB"
     },
