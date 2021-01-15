@@ -1141,34 +1141,18 @@ button.close > span {
 
 .front {
   transform: perspective(1500px) rotateY(0);
-  -ms-transform: perspective(1500px) rotateY(0); 	/* IE 9 */
-  -moz-transform: perspective(1500px) rotateY(0); 	/* Firefox */
-  -webkit-transform: perspective(1500px) rotateY(0); /* Safari 和 Chrome */
-  -o-transform: perspective(1500px) rotateY(0); 	/* Opera */
 }
 
 .back {
   transform: perspective(1500px) rotateY(180deg);
-  -ms-transform: perspective(1500px) rotateY(180deg); 	/* IE 9 */
-  -moz-transform: perspective(1500px) rotateY(180deg); 	/* Firefox */
-  -webkit-transform: perspective(1500px) rotateY(180deg); /* Safari 和 Chrome */
-  -o-transform: perspective(1500px) rotateY(180deg); 	/* Opera */
 }
 
 .trans-3d .front {
   transform: perspective(1500px) rotateY(-180deg);
-  -ms-transform: perspective(1500px) rotateY(-180deg); 	/* IE 9 */
-  -moz-transform: perspective(1500px) rotateY(-180deg); 	/* Firefox */
-  -webkit-transform: perspective(1500px) rotateY(-180deg); /* Safari 和 Chrome */
-  -o-transform: perspective(1500px) rotateY(-180deg); 	/* Opera */
 }
 
 .trans-3d .back {
   transform: perspective(1500px) rotateY(0);
-  -ms-transform: perspective(1500px) rotateY(0); 	/* IE 9 */
-  -moz-transform: perspective(1500px) rotateY(0); 	/* Firefox */
-  -webkit-transform: perspective(1500px) rotateY(0); /* Safari 和 Chrome */
-  -o-transform: perspective(1500px) rotateY(0); 	/* Opera */
 }
 
 /* .h-unify {
